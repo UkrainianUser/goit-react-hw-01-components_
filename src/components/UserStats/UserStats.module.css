@@ -1,0 +1,20 @@
+.stats {
+	background-color: #f3f6f9;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.stats li {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: calc(100%/3);
+	padding: 30px 0;
+	border: 1px solid gray;
+}
+.quantity {
+	color: #000000;
+	font-weight: 600;
+}
