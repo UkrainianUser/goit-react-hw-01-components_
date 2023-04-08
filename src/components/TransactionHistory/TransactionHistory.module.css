@@ -22,6 +22,10 @@ tbody tr:nth-child(even) {
   background-color: #ffffff;
 }
 
+tbody td:first-child {
+	text-transform: capitalize;
+}
+
 table {
   background-color: #00bcd5;
 }
