@@ -29,13 +29,13 @@ Statistics.propTypes = {
 };
 
 function generateRandomColor() {
-  const red = Math.floor(Math.random() * 256);
-  const green = Math.floor(Math.random() * 256);
-  const blue = Math.floor(Math.random() * 256);
+  let red = Math.floor(Math.random() * 256);
+  let green = Math.floor(Math.random() * 256);
+  let blue = Math.floor(Math.random() * 256);
 
-  const redHex = red.toString(16);
-  const greenHex = green.toString(16);
-  const blueHex = blue.toString(16);
+  let redHex = red.toString(16);
+  let greenHex = green.toString(16);
+  let blueHex = blue.toString(16);
 
   if (redHex.length === 1) {
     redHex = "0" + redHex;
